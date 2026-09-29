@@ -10,7 +10,7 @@ frutas = ["manzana", "banana", "cereza"]
 for fruta in frutas:
     if fruta == "Naranja":
         break
-    print(fruta)
+    print(fruta) # output: "manzana", "banana", "cereza" (se detiene si encuentra "Naranja")
 print("---------------------------------------------------------")
 
 ftutas2 = ["pera", "kiwi", "mango"]
@@ -18,7 +18,7 @@ ftutas2 = ["pera", "kiwi", "mango"]
 for fruta in ftutas2:
     if fruta == "kiwi":
         continue
-    print(fruta)
+    print(fruta) # output: "pera", "mango" (se omite "kiwi")
 else:
     print("Se han recorrido todas las frutas excepto kiwi")
 
