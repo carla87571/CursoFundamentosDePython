@@ -5,14 +5,14 @@ except:
     print("Captura el error")
 
 print("-----------------------------------------------------------------------")
-
+# Manejo de la división por cero
 try:
     numero = 10/0
 except ZeroDivisionError:
     print("Error: no se puede dividir entre cero")
 
 print("-----------------------------------------------------------------------")
-
+# Manejo de la variable no definida con NameError
 try:
     print(x)
 except NameError:

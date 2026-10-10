@@ -1,0 +1,3 @@
+Hola Mundo desde el write
+
+Hola Mundo desde el append
