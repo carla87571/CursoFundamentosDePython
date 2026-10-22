@@ -5,12 +5,12 @@ for letra in palabra:
 
 print("---------------------------------------------------------")
 
-frutas = ["manzana", "banana", "cereza"]
+frutas = ["manzana", "Naranja", "cereza"]
 
 for fruta in frutas:
     if fruta == "Naranja":
         break
-    print(fruta) # output: "manzana", "banana", "cereza" (se detiene si encuentra "Naranja")
+    print(fruta) # output: "manzana" (se detiene si encuentra "Naranja")
 print("---------------------------------------------------------")
 
 ftutas2 = ["pera", "kiwi", "mango"]

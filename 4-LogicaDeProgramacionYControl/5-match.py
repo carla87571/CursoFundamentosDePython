@@ -46,3 +46,15 @@ elif dia == 3:
 else:
     print("Día no válido")
 """
+
+color = "rojo"
+
+match color:
+    case "verde":
+        print("Puedes avanzar")
+    case "amarillo":
+        print("Precaución")
+    case "rojo":
+        print("Detente")
+    case _:
+        print("Color desconocido")

@@ -3,3 +3,4 @@ Cappuccino
 Espresso
 Americano
 Latte
+Cappuccino

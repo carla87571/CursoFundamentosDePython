@@ -18,7 +18,7 @@ a = "Python"
 b = "JavaScript"
 c = "Python"
 
-if a == c:
+if a != c:
     if a != b:
         print("Python es igual a Python y Python es diferente a JavaScript")
     else:
